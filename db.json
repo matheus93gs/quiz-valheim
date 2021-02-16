@@ -1,0 +1,60 @@
+{
+    "bg": "https://images.squarespace-cdn.com/content/v1/5e203941ee6ea226e307532c/1612260136935-HEXYGD6GIJ1SNZ5WCZGI/ke17ZwdGBToddI8pDm48kAIua_kSKNK6jBaG8AUq4Ih7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0uZ4nTVmo-7CsBThMahHfB0BoGS5mHGJvCx-swYOZ3mVCkNZWN7tJPeKIX099Fba3A/Valheim+Keyart+Squad+enjoying+the+vista.png?format=2500w",
+    "title": "Valheim",
+    "description": "Descrição",
+    "questions": [
+        {
+            "image": "",
+            "title": "",
+            "description": "descrição da questão 1",
+            "answer": 1,
+            "alternatives": [
+                "Alternativa A",
+                "Alternativa B",
+                "Alternativa C",
+                "Alternativa D"
+            ]
+        },
+        {
+            "image": "",
+            "title": "",
+            "description": "descrição da questão 2",
+            "answer": 1,
+            "alternatives": [
+                "Alternativa A",
+                "Alternativa B",
+                "Alternativa C",
+                "Alternativa D"
+            ]
+        },
+        {
+            "image": "",
+            "title": "",
+            "description": "descrição da questão 3",
+            "answer": 1,
+            "alternatives": [
+                "Alternativa A",
+                "Alternativa B",
+                "Alternativa C",
+                "Alternativa D"
+            ]
+        }
+        
+
+    ],
+    "external": [
+        "https://aluraquiz-v2.omariosouto.vercel.app/"
+    ],
+    "theme": {
+        "colors": {
+            "primary": "#590202",
+            "secondary": "#BF3617#",
+            "mainBg": "#024959",
+            "contrastText": "#7a3434",
+            "wrong": "#3e0101",
+            "success": "#04BFBF"
+        },
+        "borderRadius": "4px"
+    }
+
+}
