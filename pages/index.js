@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import db from'../db.json';
+import Widget from '../src/components/Widget'
 
  
 const BackgroundImage = styled.div`
@@ -9,9 +10,7 @@ const BackgroundImage = styled.div`
     object-position: center;
 `;
 
-const Widget = styled.div`
-  
-`
+
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -30,7 +29,21 @@ export default function Home() {
 
     <BackgroundImage>
       <QuizContainer>
-      Teste
+      <Widget>
+        <Widget.Header>
+          <h1>Valheim</h1>
+        </Widget.Header>
+        <Widget.Content>
+          <p>Lorem ipsum dolor sit amet...</p>
+        </Widget.Content>
+      </Widget>
+      
+      <Widget>
+        <Widget.Content>
+          <h1>Quiz da galera</h1>
+          <p>Lorem ipsum dolor sit amet...</p>
+        </Widget.Content>
+      </Widget>
       </QuizContainer>
     </BackgroundImage>
 

@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     /*new styles*/
     display: flex;
     flex-direction: column;
-    font-family: 'itc', 'avant', 'garde', 'gothic', 'pro';
+    font-family: 'IM Fell English SC',serif;
     //deixa branco no começo
     color: ${({ theme }) => theme.colors.contrastText};
   }
