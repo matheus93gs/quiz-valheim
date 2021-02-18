@@ -1,18 +1,21 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
 import db from '../db.json';
 
+
+
+
 const GlobalStyle = createGlobalStyle`
+    
   * {
     box-sizing: border-box;
   }
+  
   body {
     margin: 0;
     padding: 0;
-    /*new styles*/
     display: flex;
     flex-direction: column;
-    font-family: 'IM Fell English SC',serif;
-    //deixa branco no começo
+    font-family: 'IM Fell English SC', serif;
     color: ${({ theme }) => theme.colors.contrastText};
   }
   html, body {
@@ -38,3 +41,5 @@ export default function App({ Component, pageProps }) {
     </>
   )
 }
+
+

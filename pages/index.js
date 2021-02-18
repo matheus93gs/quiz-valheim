@@ -1,14 +1,22 @@
 import styled from 'styled-components';
 import db from'../db.json';
 import Widget from '../src/components/Widget'
+import Footer from '../src/components/Footer'
+import GitHubCorner from '../src/components/GitHubCorner'
+import QuizBackground from '../src/components/QuizBackground'
 
  
-const BackgroundImage = styled.div`
-    background-image: url(${db.bg});
-    flex: 1;
-    background-size: cover;
-    object-position: center;
-`;
+
+const LogoImage =  styled.div`
+
+`
+
+//const BackgroundImage = styled.div`
+//    background-image: url(${db.bg});
+//    flex: 1;
+//    background-size: cover;
+//    object-position: center;
+//`;
 
 
 
@@ -27,11 +35,11 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
 
-    <BackgroundImage>
+    <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
       <Widget>
         <Widget.Header>
-          <h1>Valheim</h1>
+          <h1>VALHEIM</h1>
         </Widget.Header>
         <Widget.Content>
           <p>Lorem ipsum dolor sit amet...</p>
@@ -44,8 +52,10 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet...</p>
         </Widget.Content>
       </Widget>
+      <Footer />
       </QuizContainer>
-    </BackgroundImage>
+      <GitHubCorner projectUrl="https://github.com/matheus93gs/quiz-valheim"/>
+    </QuizBackground>
 
   )
 }
